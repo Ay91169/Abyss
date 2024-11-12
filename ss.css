@@ -1,3 +1,26 @@
 body{
     background-color: rgb(68, 68, 68);
 }
+
+
+
+
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.3;
+    } 
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+.cont{
+    background-color: black;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
