@@ -1,5 +1,7 @@
 body{
     background-color: rgb(68, 68, 68);
+    background-image: url("https://fauux.neocities.org/LainLove.gif");
+    display: flex;
 }
 
 
@@ -17,13 +19,23 @@ body{
     }
 }
 
-    
+
 .cont{
     background-color: black;
     animation: appear linear;
-    animation-timeline: view();
+    animation-timeline: view;
     animation-range: entry 0 cover 40%;
 
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 392px;
+    margin-top: 5px;
+    transition: background-color 0.2s ease-in;
+}
+
+
+.cont:hover{
+    
+    background-color: white;
+    
+    transition: background-color 0.2s ease-in; 
 }
